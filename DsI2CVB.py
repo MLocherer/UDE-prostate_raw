@@ -1,5 +1,4 @@
 import sys
-sys.path.append("pymodules")
 import os
 import glob
 import numpy as np
