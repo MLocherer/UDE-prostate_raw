@@ -1,5 +1,4 @@
 import sys
-sys.path.append("pymodules")
 from skimage.exposure import equalize_adapthist
 import skimage
 import skimage.transform
