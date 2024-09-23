@@ -1,5 +1,7 @@
 # mpUDE-prostate
-A multparametric prostate dataset
+A new multiparametric MRI (mp-MRI) prostate dataset called UDE-prostate (UDEp) whose raw data was collected and segmented by our partner at the university Duisburg-Essen. It contains exams in the Digital Imaging and Communications in Medicine (DICOM) format and segmentation labels in the Medical Imaging Interaction Toolkit (MITK) format for apparent diffusion coeffient (ADC), T2 WI and dynamic contrast-enhanced (DCE) with 37, 29 and 30 exams respectively. For 22 of the exams all the aforementioned modalities are available.
+
+The UDEp dataset is segmented into WG (whole gland), PZ (peripheral zone) and the PLES (prostate lesion classes PLES1, PLES2 and PLES3) which depict different lesions within the prostate. Since all PLES classes encode the same information, namely lesion, they are unified to the single prostate cancer class PCa.
 
 ## Download the archive
 If you just wish to extract the dataset please download it from 
