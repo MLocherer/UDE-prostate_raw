@@ -4,7 +4,9 @@ A new multiparametric MRI (mp-MRI) prostate dataset called UDE-prostate (UDEp) w
 The UDEp dataset is segmented into WG (whole gland), PZ (peripheral zone) and the PLES (prostate lesion classes PLES1, PLES2 and PLES3) which depict different lesions within the prostate. Since all PLES classes encode the same information, namely lesion, they are unified to the single prostate cancer class PCa.
 
 ## Download the archive
-If you just wish to extract the dataset please download it from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12817071.svg)](https://doi.org/10.5281/zenodo.12817071).
+If you just wish to extract the dataset please download it from:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12817071.svg)](https://doi.org/10.5281/zenodo.12817071)
 
 Watch out version 3 is the complete raw dataset. Version 1 and 2 are already modified datasets.
 
