@@ -803,7 +803,12 @@ def ude_to_dicom(raw_pickle_filepath, export_basedir, mr_sequence='T2',
 
                             cg_map = np.zeros_like(cg_map)
                             cv2.drawContours(cg_map, [contour_top], -1, color=(255, 255, 255), thickness=cv2.FILLED)
-
+                            
+                        # optional recompute the whole gland (this is not done at the moment and for https://rdcu.be/dVQH4 
+                        # wg_map = cg_map + pz_map
+                        # also compute convex hull (c.f. https://docs.opencv.org/3.4/d7/d1d/tutorial_hull.html) and update 
+                        # the create preview (line 818) part if you would like to have a proper preview
+                        
                         # or wavelet filter: the current wavelet configuration is set to an image size of 320 x 320
                         # if the sizes mismatch the wavelets have to be adapted
                         # cg_map = img_as_ubyte(wavelet_filtering(cg_map))
